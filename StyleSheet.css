@@ -1,0 +1,18 @@
+body {
+    font-family: "Lato", sans-serif;
+    background: rgb(3, 148, 200);
+}
+
+#about_me_text, #title{
+    background: rgb(3, 148, 150);
+    border: solid white 3px;
+    border-radius: 5%;
+}
+
+/* #about_me_title{
+    background: rgb(37, 76, 112);
+    border: solid white 3px;
+    border-radius: 10%;
+
+} */
+.mySlides {display: none}
