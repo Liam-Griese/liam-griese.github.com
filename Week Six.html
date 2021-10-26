@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  background: rgb(3, 148, 200);
+
+}
+
+#title{
+  background: rgb(3, 148, 150);
+    border: solid white 3px;
+    border-radius: 5%;
+
+}
+#body{
+    color: black;
+
+
+}
+
+#slides{
+  background: rgb(3, 148, 150);
+}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-cyan w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="About Me.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
+      <a href="Final Project.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FINAL PROJECT</a>
+      <a href="#Contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT ME</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="Assignments">Assignments <i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="Week One.html" class="w3-bar-item w3-button">Week One - Making a Website</a>
+          <a href="Week Two.html" class="w3-bar-item w3-button">Week Two - Vinyl Cutter</a>    
+          <a href="Week Three.html" class="w3-bar-item w3-button">Week Three -Laser Cutter</a>
+          <a href="Week Four.html" class="w3-bar-item w3-button">Week Four - Digital Embroidery</a>
+          <a href="Week Five.html" class="w3-bar-item w3-button">Week Five - Shaper</a>
+          <a href="Week Six.html" class="w3-bar-item w3-button">Week Six - FDM Printing</a>
+          <a href="Week Seven.html" class="w3-bar-item w3-button">Week Seven - SLA Printing</a> </div>
+      </div>
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+  </div>
+   <!-- About Me Section -->
+   <div id="title" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="About Me">
+    <h1 class="w3-wide"><font size="+10">Week Six: SLA Printing </font></h1>
+    <p class="w3-opacity"><i>Liam Griese's Introduction to Digital Fabrication Website</i></p>
+  </div>
+<div class="w3-row w3-padding-64">
+
+<!-- Body Text and Photos-->
+ <div id="body" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+    <p class="w3-justify"><b><font size="+1.5">What is FDM Printing</font></b></p>
+    <p class="w3-justify"> <font size="+1.5">
+        FDM Printing is a form of printing which has an extruder adds layers of plastic on top of one another, 
+        making a design. The machine is feed a length of filiment, which is heated and melted so it can be extruded. 
+        It slowly makes the design up, building it layer by layer on the print bed. This process can take a very long time. 
+
+        
+    </p></font>
+    <img src="Photos/week six/prusa printer-min.jpg" style="width: 775px;" >
+    <div class="w3-row w3-padding-32"></div>
+
+    <p class="w3-justify"><b><font size="+1.5">Prusa Slicer </font></b></p>
+    <img src="Photos/week six/prusa slicer.PNG" style="width: 775px;" >
+    <p class="w3-justify"> <font size="+1.5">
+        Prusa Slicer is the program which converts the files downloaded from Fusion 360 to G-code, which can 
+        be read by the 3D printers. The program allows you to place your model in a model of the printer and scale it to the correct size.
+        The program also has a bunch of Customization for different types of filiment and quality of prints.
+    </p></font>
+
+    <p class="w3-justify"><b><font size="+1.5">Designing Process </font></b></p>
+    <img src="Photos/week six/FP1-min.PNG" style="width: 775px;" ><div class="w3-row w3-padding-8"></div>
+    <img src="Photos/week six/FP2-min.PNG" style="width: 775px;" ><div class="w3-row w3-padding-8"></div>
+    <img src="Photos/week six/FP3-min.PNG" style="width: 775px;" ><div class="w3-row w3-padding-8"></div>
+    <img src="Photos/week six/FP4-min.PNG" style="width: 775px;" ><div class="w3-row w3-padding-8"></div>
+    <img src="Photos/week six/FP5-min.PNG" style="width: 775px;" ><div class="w3-row w3-padding-8"></div>
+    <img src="Photos/week six/FP6-min.PNG" style="width: 775px;" ><div class="w3-row w3-padding-8"></div>
+    <img src="Photos/week six/FP7-min.PNG" style="width: 775px;" ><div class="w3-row w3-padding-8"></div>
+    <p class="w3-justify"> <font size="+1.5">
+        I had a design that I had made before the one you see above, but the stupid program crashed so I had 
+        to start again. The first step in the design process was to make a circle that would fit inside of the 
+        circle shaped hole in my desk organizer. I made it a bit smaller than the actual circle cut out, that 
+        way I could be sure that it would fit. Next I extruded the circle the height of the indent and then 
+        added a short cylinder on top to form the bottom of the vase. After that I made a few offset planes above 
+        the cylinder and connected when with the loft tool. Then I used the shell tool to make the whole design hollow, 
+        and a vase. After that I saved the design and headed to print the design! It took around 12 hours to print
+    </p></font>
+
+    <p class="w3-justify"><b><font size="+1.5">Final Product </font></b></p>
+    <img src="Photos/week six/cup-min.jpg" style="width: 775px;" ><div class="w3-row w3-padding-8"></div>
+    <img src="Photos/week six/cup in thing-min.jpg" style="width: 775px;" ><div class="w3-row w3-padding-8"></div>
+    <img src="Photos/week six/cup in thing upside down-min.jpg" style="width: 775px;" ><div class="w3-row w3-padding-8"></div>
+    <p class="w3-justify"> <font size="+1.5">
+        I cannot link the design files because as I am writing this, late on the night right before it is due, 
+        Fusion has decided to be a stick in the mud and crash every time I open it. And I left the flash drive 
+        with my Digi-Fab files in the lab. So basically I'm an idiot.
+    </p></font>
